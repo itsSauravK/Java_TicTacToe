@@ -137,7 +137,8 @@ public class JavaFrame extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent ae) {
                  //To change body of generated methods, choose Tools | Templates.
-                 if(button.getText().equals("")){
+                 if(button.getText().equals("")&&win==false){
+                    
                         if((x_or_o%2)==0){
                        button.setText("X");
                        button.setForeground(Color.WHITE);
