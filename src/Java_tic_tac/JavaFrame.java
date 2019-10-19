@@ -77,7 +77,7 @@ public class JavaFrame extends javax.swing.JFrame {
         if(!jButton1.getText().equals("")&&jButton1.getText().equals(jButton2.getText())&&jButton1.getText().equals(jButton3.getText())){
             WinEffect(jButton1,jButton2,jButton3);
             System.out.println("WINNER");
-            boolean win=true;
+            win=true;
     }
         if(!jButton1.getText().equals("")&&jButton1.getText().equals(jButton4.getText())&&jButton1.getText().equals(jButton7.getText())){
             WinEffect(jButton1,jButton4,jButton7);
